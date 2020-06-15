@@ -1,0 +1,19 @@
+<div data-entity-id="{{ $$PRIMARY_KEY_NAME$ }}">
+    <a
+        href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.show', $$PRIMARY_KEY_NAME$) }}"
+        class="data-tooltip" data-tooltip="Détails">         
+        <i class="fa fa-eye"></i>     
+    </a>
+    <span style="margin-left:10px"></span>
+    <a
+        href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.edit', $$PRIMARY_KEY_NAME$) }}"
+        class="data-tooltip" data-tooltip="Modifier">         
+        <i class="fa fa-edit"></i>     
+    </a>
+    <span style="margin-left:10px"></span>
+    <a
+        href="{{ route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.destroy', $$PRIMARY_KEY_NAME$) }}"
+        class="data-tooltip delete-btn" data-tooltip="Supprimer">         
+        <i class="fa fa-remove"></i>     
+    </a>
+</div>

@@ -1,0 +1,37 @@
+@extends('layouts.app')
+@section('title' , 'Modifier un $MODEL_NAME_HUMAN$')
+@section('breadcrumb')
+    <li class="breadcrumb-item">
+        <a href="{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.index'$FILES$) !!}">
+            Liste des $MODEL_NAME_PLURAL_HUMAN$
+        </a>
+    </li>
+    <li class="breadcrumb-item active">
+        <a>Modifier un $MODEL_NAME_HUMAN$</a>
+    </li>
+@endsection
+
+@section('content')
+    <div class="col-md-12">
+        <!-- general form elements -->
+        <div class="card">
+            <div class="card-header card-primary">
+                <h3 class="card-title card-primary__title">Modifier un $MODEL_NAME_HUMAN$</h3>
+            </div>
+            <!-- /.card-header -->
+            <!-- form start -->
+            {!! Form::model($$MODEL_NAME_CAMEL$, ['id' => "edit-$MODEL_NAME_HUMAN$-form", 'class' => 'main-form' , 'route' => ['$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.update', $$MODEL_NAME_CAMEL$->$PRIMARY_KEY_NAME$], 'method' => 'patch'$FILES$]) !!}
+                <div class="card-body row">
+                    @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.fields')
+                </div>
+                <div class="card-footer">
+                    <button type="submit" class="btn btn-success">Valider</button>
+                    <a href = "{!! route('$ROUTE_NAMED_PREFIX$$MODEL_NAME_PLURAL_CAMEL$.store'$FILES$) !!}"
+                        type="submit" class="btn btn-primary">
+                        Retourner à liste des $MODEL_NAME_PLURAL_HUMAN$
+                    </a>
+                </div>
+            {!! Form::close() !!}
+        </div>
+    </div>
+@endsection

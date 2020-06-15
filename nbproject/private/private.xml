@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/var/www/html/appli-esc/app/Http/Controllers/RapportFinalController.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/rapports_finaux/datatables_actions.blade.php</file>
+            <file>file:/var/www/html/appli-esc/app/DataTables/RapportFinalDataTable.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/partials/homes/professeur.blade.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/partials/homes/administrateur.blade.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/stages/mes_stages_actions.blade.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/rapports_finaux/index.blade.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/rapports_finaux/fields.blade.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/partials/homes/etudiant.blade.php</file>
+            <file>file:/var/www/html/appli-esc/app/Util/StateUtil.php</file>
+            <file>file:/var/www/html/appli-esc/routes/web.php</file>
+            <file>file:/var/www/html/appli-esc/resources/views/rapports_finaux/create.blade.php</file>
+            <file>file:/var/www/html/appli-esc/app/Http/Controllers/ProfesseurController.php</file>
+            <file>file:/var/www/html/appli-esc/app/Http/Controllers/HomeController.php</file>
+            <file>file:/var/www/html/appli-esc/app/DataTables/DepotDataTable.php</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,1 @@
+<a href='{{ url($path) }}' target='_blank'>Télécharger</a>

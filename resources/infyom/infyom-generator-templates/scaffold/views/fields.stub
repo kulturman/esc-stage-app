@@ -1,0 +1,2 @@
+{!! Form::text('id', null, ['class' => 'form-control hidden-field']) !!}
+$FIELDS$

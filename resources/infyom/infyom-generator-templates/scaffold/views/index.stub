@@ -1,0 +1,20 @@
+@extends('layouts.app')
+@section('title' , 'Liste des ' . '$MODEL_NAME_PLURAL_HUMAN$')
+@section('main-title' , 'Liste des ' . '$MODEL_NAME_PLURAL_HUMAN$')
+@section('breadcrumb')
+    <li class="breadcrumb-item main-form">
+        <a>
+            Liste des $MODEL_NAME_PLURAL_HUMAN$
+        </a>
+    </li>
+@endsection
+
+@section('content')
+@include('flash::message')
+<div class="card">
+    <div class="card-body">
+        @include('$VIEW_PREFIX$$MODEL_NAME_PLURAL_SNAKE$.table')
+    </div>
+</div>
+@endsection
+
