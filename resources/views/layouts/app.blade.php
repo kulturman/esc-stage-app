@@ -13,7 +13,7 @@
         <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
         {!! Html::style('plugins/dark-tooltip/darktooltip.css') !!}
         <link rel="stylesheet" href="{!! url('/css/custom.css') !!}">
-        <link rel="stylesheet" href="/plugins/fontawesome-free/css/all.min.css">
+        {!! Html::style('plugins/fontawesome-free/css/all.min.css') !!}
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
